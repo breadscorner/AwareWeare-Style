@@ -10,25 +10,25 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1>AwareWear Styleguide</h1>
+      <h1 className="text-3xl" id="home">AwareWear Styleguide</h1>
       {/* Logos */}
-      <div className="min-h-screen">
+      <div className="min-h-screen" id="logos">
         <Logos />
       </div >
       {/* Colours */}
-      <div className="min-h-screen">
+      <div className="min-h-screen" id="colours">
         <Colours />
       </div>
       {/* Typography */}
-      <div className="min-h-screen">
+      <div className="min-h-screen" id="typography">
         <Typography />
       </div>
       {/* Graphics/ Icons */}
-      <div className="min-h-screen">
+      <div className="min-h-screen" id="graphics">
         <Graphics />
       </div>
       {/* Photography */}
-      <div className="min-h-screen">
+      <div className="min-h-screen" id="photography">
         <Photography />
       </div>
     </div>

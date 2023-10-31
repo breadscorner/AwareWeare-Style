@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen">
-        <h1 className="text-3xl" id="home">AwareWear Styleguide</h1>
+      <div className="min-h-screen mt-[100px]" id="home">
+        <h1 className="flex text-6xl justify-center">AwareWear Styleguide</h1>
       </div>
 
       {/* Logos */}

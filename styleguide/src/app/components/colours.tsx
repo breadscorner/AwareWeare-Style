@@ -1,7 +1,7 @@
 export default function Colours() {
   return (
     <div className="p-4">
-      <h2 className="text-3xl mb-8">Colour Palette</h2>
+      <h2 className="text-3xl mb-8 p-2 border-b">Colour Palette</h2>
       <div className="grid grid-cols-6 gap-4">
 
         <div className="flex flex-col items-center p-4">

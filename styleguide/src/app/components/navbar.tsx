@@ -31,7 +31,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="fixed top-0 w-full backdrop-blur-lg">
+    <div className="fixed z-10 top-0 w-full backdrop-blur-lg">
       <ul className="flex justify-evenly p-4 navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#logos">Logos</a></li>

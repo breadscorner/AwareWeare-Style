@@ -3,10 +3,10 @@ export default function Typography() {
   return (
     <div>
       <h2 className="text-3xl p-4">Typography</h2>
-      <div className="flex justify-between p-8">
+      <div className="flex justify-between p-6">
         {/* Type Scale */}
         <div className="space-y-6">
-          <h2 className="text-2xl mb-6">
+          <h2 className="text-2xl mb-6 border-b w-[50%]">
             Type Scale
           </h2>
           <p className="text-sm">
@@ -51,12 +51,12 @@ export default function Typography() {
         </div>
 
         {/* Font Style */}
-        <div className="w-1/2 pl-4 border-l">
-          <h2 className="text-2xl mb-6">Font Style</h2>
+        <div className="w-1/2 pl-6 border-l">
+          <h2 className="text-2xl mb-6 border-b w-[50%]">Font Style</h2>
 
           <div className="flex">
             {/* Sans Serif - Lexend Deca */}
-            <div className="w-1/2 pr-4 space-y-4">
+            <div className="w-1/2 space-y-4">
               <h3 className="mb-2">Sans Serif | Lexend Deca</h3>
               <div className="mb-4">
                 <h2 className="mb-2">Lexend Deca Light</h2>

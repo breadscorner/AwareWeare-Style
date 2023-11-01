@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* h1 and h2 elements stacked and centered */}
         <div className="flex flex-col justify-center items-start p-10 space-y-6 ml-auto mr-auto border-l-4 border-gray-400 w-3/5">
-          <h1 className="text-[4em] font-extrabold serif uppercase text-white shadow-lg bg-gradient-to-r from-[#003366] via-[#5DA399] to-[#FF6B6B] p-2 rounded">AwareWear</h1>
+          <h1 className="text-[4em] px-6 py-2 font-bold serif uppercase text-white shadow-lg bg-gradient-to-r from-[#003366] via-[#5DA399] to-[#FF6B6B] rounded">AwareWear</h1>
           <h2 className="text-[5em] font-bold sans uppercase text-white shadow-md">Brand Style</h2>
           <h2 className="text-[4em] font-light italic monospace uppercase text-white shadow-md">Guide</h2>
         </div>
@@ -32,27 +32,27 @@ export default function Home() {
       </div>
 
       {/* Logos */}
-      <div className="min-h-screen py-12 border-t border-gray-800" id="logos">
+      <div className="min-h-screen py-4 border-t border-gray-800" id="logos">
         <Logos />
       </div>
 
       {/* Colours */}
-      <div className="min-h-screen py-12 border-t border-gray-800" id="colours">
+      <div className="min-h-screen py-4 border-t border-gray-800" id="colours">
         <Colours />
       </div>
 
       {/* Typography */}
-      <div className="min-h-screen py-12 border-t border-gray-800" id="typography">
+      <div className="min-h-screen py-4 border-t border-gray-800" id="typography">
         <Typography />
       </div>
 
       {/* Graphics/ Icons */}
-      <div className="min-h-screen py-12 border-t border-gray-800" id="graphics">
+      <div className="min-h-screen py-4 border-t border-gray-800" id="graphics">
         <Graphics />
       </div>
 
       {/* Photography */}
-      <div className="min-h-screen py-12 border-t border-gray-800" id="photography">
+      <div className="min-h-screen py-4 border-t border-gray-800" id="photography">
         <Photography />
       </div>
     </div>

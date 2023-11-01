@@ -9,7 +9,7 @@ export default function Navbar() {
       const target = document.getElementById(targetId);
 
       if (target) {
-        const offset = 75; // Adjust for distance from top of viewport
+        const offset = 50; // Adjust for distance from top of viewport
         window.scrollTo({
           top: target.offsetTop - offset,
           behavior: 'smooth',

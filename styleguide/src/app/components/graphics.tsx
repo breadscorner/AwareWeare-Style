@@ -34,7 +34,7 @@ export default function Graphics() {
           <tr className="border-b">
             <td className="pr-4 pb-4">
               <p>Hover</p>
-              <button className="m-2 bg-blue-600 text-white font-semibold rounded-full px-10 py-2.5 shadow-lg transition-colors duration-300">
+              <button className="m-2 bg-sky-700 text-white font-semibold rounded-full px-10 py-2.5 shadow-lg transition-colors duration-300">
                 Text Only
               </button>
             </td>
@@ -44,7 +44,7 @@ export default function Graphics() {
               </button>
             </td>
             <td className="pl-4 pb-4">
-              <button className="m-2 bg-blue-600 text-white font-semibold rounded-full px-6 py-2.5 shadow-lg transition-colors duration-300">
+              <button className="m-2 bg-sky-700 text-white font-semibold rounded-full px-6 py-2.5 shadow-lg transition-colors duration-300">
                 Text Only
               </button>
             </td>

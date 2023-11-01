@@ -3,12 +3,13 @@
 import { useEffect } from 'react';
 
 export default function Navbar() {
+  
   useEffect(() => {
     const smoothScroll = (targetId: string) => {
       const target = document.getElementById(targetId);
 
       if (target) {
-        const offset = 75; // Adjust this value as needed
+        const offset = 75; // Adjust for distance from top of viewport
         window.scrollTo({
           top: target.offsetTop - offset,
           behavior: 'smooth',

@@ -4,7 +4,7 @@ export default function Logos() {
 
   return (
 <div>
-  <h2 className="text-3xl p-4">Logos</h2>
+  <h2 className="text-3xl p-4 mb-4 border-b">Logos</h2>
   {/* Logos Container */}
   <div className="flex">
     {/* First Logo */}

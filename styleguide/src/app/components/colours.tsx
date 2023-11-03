@@ -60,7 +60,7 @@ export default function Colours() {
         <div className="border-l pl-2">
         <p>Keppel signifies positive feedback, like a correct answer, offering a visual reward.</p>
         <br />
-        <p>Keppel, a serene shade of green, represents nature, renewal, and vitality. It's an apt hue for sustainability topics, reminding users of the environment. On a platform about fashion ethics, it celebrates the benefits of eco-friendly choices, inspiring hope and action.</p>
+        <p>Keppel, a serene shade of green, represents nature, renewal, and vitality. It&apos;s an apt hue for sustainability topics, reminding users of the environment. On a platform about fashion ethics, it celebrates the benefits of eco-friendly choices, inspiring hope and action.</p>
         </div>
         <div className="border-l pl-2">
         <p>Sea Salt provides a consistent backdrop, either solid or under images, ensuring clarity.</p>

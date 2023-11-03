@@ -9,7 +9,7 @@ export default function Navbar() {
       const target = document.getElementById(targetId);
 
       if (target) {
-        const offset = 50; // Adjust for distance from top of viewport
+        const offset = 25; // Adjust for distance from top of viewport
         window.scrollTo({
           top: target.offsetTop - offset,
           behavior: 'smooth',
@@ -21,14 +21,23 @@ export default function Navbar() {
     const links = document.querySelectorAll('.navbar a');
     links.forEach((link) => {
       link.addEventListener('click', (e) => {
-        e.preventDefault();
         const targetId = (e.target as HTMLElement)?.getAttribute('href')?.substring(1); // Typecast to HTMLElement
-        if (targetId) {
+
+        // If the link is not "Home", apply smooth scrolling.
+        if (targetId && targetId !== "home") {
+          e.preventDefault();
           smoothScroll(targetId);
+        } else if (targetId && targetId === "home") {
+          e.preventDefault();
+          // If the link is "Home", scroll to the top of the page.
+          window.scrollTo({
+            top: 20,
+            behavior: 'smooth',
+          });
         }
       });
     });
-  }, []);
+  }, []); 
 
   return (
     <div className="fixed z-10 top-0 w-full backdrop-blur-lg">

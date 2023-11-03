@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 absolute z-10 w-full">
       <Navbar />
-      <div className="min-h-screen mt-[225px] relative container mx-auto" id="home">
+      <div className="min-h-screen mt-[200px] relative container mx-auto" id="home">
 
         {/* Image positioned to the left */}
         <Image

@@ -3,6 +3,7 @@ import Navbar from './components/navbar'
 import Logos from './components/logos'
 import Colours from './components/colours'
 import Typography from './components/typography'
+import Grid from './components/grid'
 import Graphics from './components/graphics'
 import Photography from './components/photography'
 import Image from 'next/image'
@@ -44,6 +45,11 @@ export default function Home() {
       {/* Typography */}
       <div className="min-h-screen py-4 border-t border-gray-800" id="typography">
         <Typography />
+      </div>
+
+      {/* Grid Layout */}
+      <div className="min-h-screen py-4 border-t border-gray-800" id="grid">
+        <Grid />
       </div>
 
       {/* Graphics/ Icons */}

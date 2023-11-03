@@ -3,6 +3,9 @@
 import { useEffect } from 'react';
 
 export default function Navbar() {
+
+  // Add url fragment to the end of the url
+  // window.location.hash = '#home'; maybe
   
   useEffect(() => {
     const smoothScroll = (targetId: string) => {

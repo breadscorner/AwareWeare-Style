@@ -1,7 +1,7 @@
 export default function Colours() {
   return (
     <div className="p-4">
-      <h2 className="text-3xl mb-8 p-2 border-b">Colour Palette</h2>
+      <h2 className="text-3xl mb-4 p-2 border-b">Colour Palette</h2>
       <div className="grid grid-cols-6 gap-4">
 
         <div className="flex flex-col items-center p-4">
@@ -41,11 +41,11 @@ export default function Colours() {
         </div>
 
       </div>
-      <div className="mt-8 grid grid-cols-6 gap-6 pb-8">
+      <div className="mt-6 grid grid-cols-6 gap-6 pb-8">
         <div className="border-l pl-2">
           <p>Berkeley Blue is utilized for quiz buttons and page accents, creating a sense of cohesion.</p>
           <br />
-          <p>Blue evokes feelings of trust, reliability, and calm, suggesting stability and depth associated with knowledge and expertise. For an educational platform discussing the complexities of fashion sustainability, this color creates a trustworthy environment, helping users process information without feeling overwhelmed.</p> 
+          <p>Blue evokes feelings of trust, reliability, and calm, suggesting stability associated with knowledge and expertise. For an educational platform discussing the complexities of fast fashion, it creates trust, helping users process information stress-free.</p> 
         </div>
         <div className="border-l pl-2">
           <p>Light Red accentuates features, especially pins on the map, adding a touch of vibrancy.</p>

@@ -26,7 +26,7 @@ export default function Logos() {
       </div>
       <div className="border-t mt-4 pt-4 ">
         <h3 className="px-4 pb-4 border-b mb-2 font-semibold">Logo Sizing</h3>
-        <div className="border-b border-gray-400 pb-4 px-4 w-full">
+        <div className="border-gray-400 pb-4 px-4 w-full">
           <p className="pt-2">
             Badge Logos:
             Designed to be clear and legible at a standard size of 60 pixels tall to ensure visibility within the app&apos;s interfaces, suitable for high-resolution displays.

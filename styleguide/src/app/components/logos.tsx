@@ -29,8 +29,8 @@ export default function Logos() {
         <div className="border-b border-gray-400 pb-4 px-4 w-full">
           <p className="pt-2">
             Badge Logos:
-            Designed to be clear and legible at a standard size of 60 pixels tall to ensure visibility within the app’s interfaces, suitable for high-resolution displays.
-            Each badge displays one of the brand's six signature colors, optimized for quick recognition.
+            Designed to be clear and legible at a standard size of 60 pixels tall to ensure visibility within the app&apos;s interfaces, suitable for high-resolution displays.
+            Each badge displays one of the brand&apos;s six signature colors, optimized for quick recognition.
           </p>
           <br />
           <p>
@@ -41,14 +41,14 @@ export default function Logos() {
           <br />
           <p>
             Color and Clarity:
-            Logos are created to be easily readable and visually appealing at a size that's standard for mobile displays, ensuring the branding is effective and consistent.
+            Logos are created to be easily readable and visually appealing at a size that&apos;s standard for mobile displays, ensuring the branding is effective and consistent.
             Color variants of the logos are chosen to contrast well with various backgrounds, enhancing visibility and recognition.
           </p>
           <br />
           <p>
             Accessibility:
             The logos are designed with accessibility in mind, including alternative text for screen readers.
-            A clear space guideline ensures logos stand out from other UI elements, with padding that's proportionate to the logo’s size.
+            A clear space guideline ensures logos stand out from other UI elements, with padding that&apos;s proportionate to the logo&apos;s size.
           </p>
         </div>
       </div>

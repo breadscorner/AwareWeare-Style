@@ -72,9 +72,16 @@ export default function Graphics() {
 
       {/* Buttons Descriptions */}
       <h4 className="font-semibold mt-4 p-4">Buttons</h4>
-      <p className="mb-2 ml-2">1. Primary buttons will be used for launching elements of the application.</p>
-      <p className="mb-2 ml-2">2. Secondary buttons for providing links to resources.</p>
-      <p className="mb-2 ml-2">3. Tertiary buttons for navigating the application quiz.</p>
+      <p className="mb-2 ml-2">
+        1. Primary buttons, featuring a prominent design and bold colors aligned with our brand, will be strategically placed to facilitate the most common actions, such as launching core features of the application like the personal sustainability tracker or the virtual wardrobe.
+      </p>
+      <p className="mb-2 ml-2">
+        2. Secondary buttons, designed with a subtler appearance, will be used to provide users with quick access to a wealth of resources such as in-depth guides on sustainable fashion practices and external educational materials.
+      </p>
+      <p className="mb-2 ml-2">
+        3. Tertiary buttons, with a more discreet design, will be employed for navigation within the application's interactive quiz section, guiding users through questions and leading them towards a more informed understanding of their fashion footprint.
+      </p>
+
     </div>
   )
 }

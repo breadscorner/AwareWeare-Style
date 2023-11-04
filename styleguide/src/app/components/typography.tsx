@@ -2,7 +2,7 @@ export default function Typography() {
 
   return (
     <div className="p-4">
-      <h2 className="text-3xl mb-8 p-2 border-b">Typography</h2>
+      <h2 className="text-3xl p-2 border-b">Typography</h2>
       <div className="flex justify-between p-6">
         {/* Type Scale */}
         <div className="space-y-6">

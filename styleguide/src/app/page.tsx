@@ -5,7 +5,6 @@ import Colours from './components/colours'
 import Typography from './components/typography'
 import Layout from './components/layout'
 import Graphics from './components/graphics'
-import Photography from './components/photography'
 import Image from 'next/image'
 
 export default function Home() {
@@ -58,10 +57,6 @@ export default function Home() {
         <Graphics />
       </div>
 
-      {/* Photography */}
-      <div className="min-h-screen py-4 border-t border-gray-800" id="photography">
-        <Photography />
-      </div>
     </div>
   )
 }

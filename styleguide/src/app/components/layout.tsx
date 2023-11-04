@@ -1,6 +1,6 @@
 import Mobile from './mobile-design';
 
-export default function Grid() {
+export default function Layout() {
   return (
     <div>
 

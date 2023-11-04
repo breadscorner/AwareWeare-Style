@@ -49,7 +49,7 @@ export default function Navbar() {
         <li><a href="#logos">Logos</a></li>
         <li><a href="#colours">Colours</a></li>
         <li><a href="#typography">Typography</a></li>
-        <li><a href="#grid">Grid Layout</a></li>
+        <li><a href="#grid">Layout</a></li>
         <li><a href="#graphics">Iconography</a></li>
         <li><a href="#photography">Photography</a></li>
       </ul>

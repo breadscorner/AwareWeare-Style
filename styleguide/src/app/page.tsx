@@ -3,7 +3,7 @@ import Navbar from './components/navbar'
 import Logos from './components/logos'
 import Colours from './components/colours'
 import Typography from './components/typography'
-import Grid from './components/grid'
+import Layout from './components/layout'
 import Graphics from './components/graphics'
 import Photography from './components/photography'
 import Image from 'next/image'
@@ -28,6 +28,7 @@ export default function Home() {
           <h1 className="text-[4em] px-6 py-2 font-bold serif uppercase text-white shadow-lg bg-gradient-to-r from-[#003366] via-[#5DA399] to-[#FF6B6B] rounded">AwareWear</h1>
           <h2 className="text-[5em] font-bold sans uppercase text-white shadow-md">Brand Style</h2>
           <h2 className="text-[4em] font-light italic monospace uppercase text-white shadow-md">Guide</h2>
+          <p>Brett Gill, Alex Levchuk, Tony Paik, Jun Choi</p>
         </div>
 
       </div>
@@ -49,7 +50,7 @@ export default function Home() {
 
       {/* Grid Layout */}
       <div className="min-h-screen py-4 border-t border-gray-800" id="grid">
-        <Grid />
+        <Layout />
       </div>
 
       {/* Graphics/ Icons */}

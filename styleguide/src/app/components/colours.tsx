@@ -43,34 +43,46 @@ export default function Colours() {
       </div>
       <div className="mt-6 grid grid-cols-6 gap-6 pb-8">
         <div className="border-l pl-2">
-          <p>Berkeley Blue is utilized for quiz buttons and page accents, creating a sense of cohesion.</p>
+          <p>Berkeley Blue is utilized often to create a sense of cohesion.</p>
           <br />
-          <p>Blue evokes feelings of trust, reliability, and calm, suggesting stability associated with knowledge and expertise. For an educational platform discussing the complexities of fast fashion, it creates trust, helping users process information stress-free.</p> 
+          <p>Example: Main features throughout the app including buttons to start the quiz and unselected answers in the quiz.</p>
+          <br />
+          <p>Blue evokes feelings of trust, reliability, and calm, suggesting stability associated with knowledge and expertise. For an educational platform discussing the complexities of fast fashion, it creates trust, helping users process information stress-free.</p>
         </div>
         <div className="border-l pl-2">
-          <p>Light Red accentuates features, especially pins on the map, adding a touch of vibrancy.</p>
+          <p>Light Red accentuates features adding a touch of vibrancy.</p>
+          <br />
+          <p>Example: Pins on the map and the button leading to the educational pages.</p>
           <br />
           <p>Red elicits emotions of urgency, alertness, and energy, drawing attention to significant details. In a platform about fast fashion&apos;s impacts, this hue underscores the immediate need for sustainable choices, galvanizing users towards conscientious decisions.</p>
         </div>
         <div className="border-l pl-2">
-        <p>Goldenrod highlights important elements, ensuring they capture the user&apos;s attention.</p>
-        <br />
-        <p>Goldenrod embodies optimism, warmth, and clarity. As a hue reminiscent of sunlight and gold, it signifies value and enlightenment. Within an educational setting, it emphasizes the positive outcomes of sustainable fashion, encouraging users to make enlightened choices.</p>
+          <p>Goldenrod highlights important elements, ensuring they capture the user&apos;s attention.</p>
+          <br />
+          <p>Examples: Button to start the quiz and selected answers in the quiz.</p>
+          <br />
+          <p>Goldenrod embodies optimism, warmth, and clarity. As a hue reminiscent of sunlight and gold, it signifies value and enlightenment. Within an educational setting, it emphasizes the positive outcomes of sustainable fashion, encouraging users to make enlightened choices.</p>
         </div>
         <div className="border-l pl-2">
-        <p>Keppel signifies positive feedback, like a correct answer, offering a visual reward.</p>
-        <br />
-        <p>Keppel, a serene shade of green, represents nature, renewal, and vitality. It&apos;s an apt hue for sustainability topics, reminding users of the environment. On a platform about fashion ethics, it celebrates the benefits of eco-friendly choices, inspiring hope and action.</p>
+          <p>Keppel signifies positive feedback, like a correct answer, offering a visual reward.</p>
+          <br />
+          <p>Example: Button to launch the resources page.</p>
+          <br />
+          <p>Keppel, a serene shade of green, represents nature, renewal, and vitality. It&apos;s an apt hue for sustainability topics, reminding users of the environment. On a platform about fashion ethics, it celebrates the benefits of eco-friendly choices, inspiring hope and action.</p>
         </div>
         <div className="border-l pl-2">
-        <p>Sea Salt provides a consistent backdrop, either solid or under images, ensuring clarity.</p>
-        <br />
-        <p>Sea Salt, an off-white hue, suggests purity, simplicity, and neutrality. As a backdrop, it offers a canvas for other colors and content to shine. In the context of fashion sustainability, it symbolizes a clean slate, promoting fresh perspectives and sustainable practices.</p>
+          <p>Sea Salt provides a consistent backdrop, either solid or under images, ensuring clarity.</p>
+          <br />
+          <p>Example: The background of the application.</p>
+          <br />
+          <p>Sea Salt, an off-white hue, suggests purity, simplicity, and neutrality. As a backdrop, it offers a canvas for other colors and content to shine. In the context of fashion sustainability, it symbolizes a clean slate, promoting fresh perspectives and sustainable practices.</p>
         </div>
         <div className="border-l pl-2">
-        <p>Davy&apos;s Gray is versatile, gracing buttons, nav icons, and text, setting a neutral tone.</p>
-        <br />
-        <p>Davy&apos;s Gray exudes sophistication, neutrality, and balance. It&apos;s a versatile color that can ground other brighter hues, aiding in focus. In lessons on fast fashion drawbacks, it serves as a neutral base, allowing other content to take center stage for effective learning.</p>
+          <p>Davy&apos;s Gray is versatile, gracing buttons, nav icons, and text, setting a neutral tone.</p>
+          <br />
+          <p>Example: Quiz result window and buttons in the resources that lead off the application to the resource link.</p>
+          <br />
+          <p>Davy&apos;s Gray exudes sophistication, neutrality, and balance. It&apos;s a versatile color that can ground other brighter hues, aiding in focus. In lessons on fast fashion drawbacks, it serves as a neutral base, allowing other content to take center stage for effective learning.</p>
         </div>
       </div>
 

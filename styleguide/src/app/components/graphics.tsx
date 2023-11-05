@@ -12,7 +12,7 @@ export default function Graphics() {
       <div className="flex">
         <div className="w-1/2 border-r">
           <div className="mx-4">
-            <h2 className="font-semibold mb-2 py-2 border-b">Iconography</h2>
+            <h2 className="font-semibold mb-2 mr-4 py-2 border-b">Iconography</h2>
             <p className="mt-2">
               Icons will be used to provide users with visual cues to facilitate navigation and improve the overall user experience. We have 4 main icons that will be used for navigation on the bottom of the mobile screen.
             </p>
@@ -54,12 +54,44 @@ export default function Graphics() {
           </div>
         </div>
 
-        <div className="py-2 px-4 w-1/2">
-          <h3 className="border-b pb-2 mb-2">Images</h3>
-          <p>Images are used to overlay some of our buttons on the main navigational page. We have images of women representing the demographic for that particular link from the waist up. They will all have the background removed and be larger than the button so the overflow onto the page. The bottom of the cropped image will line up with the bottom of the button on the page. We may use other images to represent businesses in the resources. Images will also be used throughout the quiz to express emotion and showcase some of our demographic.</p>
-          <br />
-          <p>Images will be sized a little larger than the buttons on the navigational page. Other images will range from 1/3 of the viewport to 1/4 of the viewport. They will be this size so you can see the expression clearly.</p>
+        <div className="py-2 px-4 ml-4 w-full flex flex-col">
+          <h3 className="border-b font-semibold pb-2 mb-4">Image Guidelines</h3>
+
+          <div className="flex mb-8">
+            <img src="./images/main-page-buttons.png" alt="Main Page" className="w-[250px] mr-4" />
+            <div className="border-l-2 p-4 m-4 flex-1">
+              <h3 className="border-b pb-2 mb-2">Main Navigational Page</h3>
+              <br />
+              <p>
+                On our main navigation page, the use of imagery is both strategic and symbolic. We feature waist-up portraits of women, each carefully selected to represent the demographic focus of the corresponding navigational link. These images are presented without backgrounds for a seamless integration over our interactive buttons. Their size exceeds that of the buttons to allow for a tasteful overflow onto the page, with the images&apos; bottom edges aligning precisely with the button&apos;s lower margin.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex mb-8">
+            <img src="./images/resource-page.png" alt="Resource Page" className="w-[250px] mr-4" />
+            <div className="border-l-2 p-4 m-4 flex-1">
+              <h3 className="border-b pb-2 mb-2">Resource Page</h3>
+              <br />
+              <p>
+                In the resources section, we complement business listings with representative images. These will not only serve as visual identifiers but also as engagement tools, inviting users to learn more about each enterprise. The images used here, like those on the navigation page, will be crisp and clear to foster immediate connection and recognition.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <img src="./images/quiz-page.png" alt="Quiz Page" className="w-[250px] mr-4" />
+            <div className="border-l-2 p-4 m-4 flex-1">
+              <h3 className="border-b pb-2 mb-2">Quiz Page</h3>
+              <br />
+              <p>
+                The quiz sections of our application will utilize images that are proportionally larger, taking up either a third or a quarter of the viewport. The purpose of these images is to effectively convey various emotions and states of being, resonating with the user&apos;s journey through the quiz. This deliberate sizing ensures that expressions and sentiments are easily discernible, enhancing the interactive experience.
+              </p>
+            </div>
+          </div>
         </div>
+
+
       </div>
 
       {/* Buttons */}<h3 className="font-semibold mt-4 mb-2 p-2 border-b">Buttons</h3>
@@ -132,15 +164,15 @@ export default function Graphics() {
 
       {/* Buttons Descriptions */}
       <p className="mt-4 mb-2 ml-4">
-        1. Primary buttons, featuring a prominent design and bold colors aligned with our brand, will be strategically placed to facilitate the most common actions, such as launching core features of the application like the personal sustainability tracker or the virtual wardrobe.
+        <b>1. Primary buttons</b>, featuring a prominent design and bold colors aligned with our brand, will be strategically placed to facilitate the most common actions, such as launching core features of the application like the personal sustainability tracker or the virtual wardrobe.
       </p>
       <br />
       <p className="mb-2 ml-4">
-        2. Secondary buttons, designed with a subtler appearance, will be used to provide users with quick access to a wealth of resources such as in-depth guides on sustainable fashion practices and external educational materials.
+        <b>2. Secondary buttons</b>, designed with a subtler appearance, will be used to provide users with quick access to a wealth of resources such as in-depth guides on sustainable fashion practices and external educational materials.
       </p>
       <br />
       <p className="mb-2 ml-4">
-        3. Tertiary buttons, with a more discreet design, will be employed for navigation within the application's interactive quiz section, guiding users through questions and leading them towards a more informed understanding of their fashion footprint.
+        <b>3. Tertiary buttons</b>, with a more discreet design, will be employed for navigation within the application's interactive quiz section, guiding users through questions and leading them towards a more informed understanding of their fashion footprint.
       </p>
 
     </div>

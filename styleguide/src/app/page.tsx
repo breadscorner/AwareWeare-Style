@@ -6,6 +6,7 @@ import Typography from './components/typography'
 import Layout from './components/layout'
 import Graphics from './components/graphics'
 import Image from 'next/image'
+import Footer from './components/footer'
 
 export default function Home() {
   return (
@@ -57,6 +58,8 @@ export default function Home() {
         <Graphics />
       </div>
 
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }

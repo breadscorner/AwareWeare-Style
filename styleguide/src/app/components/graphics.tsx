@@ -14,7 +14,7 @@ export default function Graphics() {
           <div className="mx-4">
             <h2 className="font-semibold mb-2 mr-4 py-2 border-b">Iconography</h2>
             <p className="mt-2">
-              Icons will be used to provide users with visual cues to facilitate navigation and improve the overall user experience. We have 4 main icons that will be used for navigation on the bottom of the mobile screen.
+              Icons will be used to provide users with visual cues to facilitate navigation and improve the overall user experience. We have 4 main icons that will be used for navigation on the bottom of the mobile screen.Our icons our in svg format and found on www.fontawesome.com
             </p>
           </div>
           <br />

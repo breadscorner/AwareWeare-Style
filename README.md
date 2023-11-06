@@ -1,5 +1,8 @@
 # AwareWear - Fast Fashion Education App
 
+[Visit the Style Guide](https://styleguide-pearl.vercel.app)
+
+
 Welcome to AwareWear, your go-to resource for understanding the impact of fast fashion and making informed choices.
 
 ## About the App
